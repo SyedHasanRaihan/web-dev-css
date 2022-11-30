@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+}
+
+/* -------Intrinsic sizing------------- */
+
+.box-demo-intrinsic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xxx-large;
+    font-weight: 600;
+    color: #434242;
+    margin: 50px;
+    padding: 20px;
+    width: fit-content;
+    height: fit-content;
+    border: 30px ridge hotpink;
+    background-image: url("../images/pexels-miguel-á-padriñán-255379.jpg");
+    background-size: cover;
+}
+
+/* ------------Extrinsic sizing----------- */
+
+.box-demo-extrinsic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xxx-large;
+    font-weight: 600;
+    color: #434242;
+    margin: 50px;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    border: 30px outset blueviolet;
+    background-image: url("../images/pexels-miguel-á-padriñán-255379.jpg");
+    background-size: cover;
+}
